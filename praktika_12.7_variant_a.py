@@ -16,4 +16,5 @@ print(int(deposit_sber*money/100))
 
 deposit_i = [int(deposit_tkb*money/100), int(deposit_skb*money/100), int(deposit_vtb*money/100),int(deposit_sber*money/100)]
 print(deposit_i)
-print("Maksimal`naya summa, kotoruy vy mogete zarabotat`:",max(deposit_i),"v banke:", 'SKB'  )
+keymax=max(per_cent,key=per_cent.get)
+print("Maksimal`naya summa, kotoruy vy mogete zarabotat`:",max(deposit_i),"v banke:",keymax  )
